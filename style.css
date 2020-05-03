@@ -1,0 +1,462 @@
+.one,.two,.three{
+     border: 2px solid: cornflowerblue;  
+    
+    
+}
+.main{
+      display: flex;  
+    flex-direction: row;
+     align-items: center; 
+       justify-content: space-around;  
+     flex-wrap: wrap;
+      border: 3px solid:cornflowerblue; 
+     background-color: cornflowerblue; 
+}
+
+
+.two{
+   padding: 2px 3px 0px 3px;
+    /* font-weight: bolder; */
+    color: cornsilk;
+    text-indent: 20px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+ .one,.three{
+     padding:5px  ;
+ }
+
+ .three{
+     cursor: pointer;
+ }
+
+
+
+
+  /* MENU BAR START */
+
+
+menu-bar ul img{
+    text-indent: 10px 10px;
+}
+
+ menu-bar{
+    background-color: #efefef;
+     text-align: center; 
+     }
+     .menu-bar ul{
+         display: inline-flex;
+         list-style: none;
+         color: black;
+         text-align: center;
+         flex-wrap: wrap;
+     }
+    .menu-bar ul li{
+         width: 120px;
+         margin: 10px;
+          padding: 10; 
+     }
+    .menu-bar ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .active, .menu-bar ul li:hover{
+    background: #316dc3;
+    border-radius: 30px;
+    
+    }
+     .menu-bar .fa{
+         margin-right: 5px;  
+    }
+    .toggle{
+        display: none;
+    }
+    
+    /* MENU BAR COMPLETE */
+
+
+
+
+
+    /* INTRODUCTION START */
+
+/* style for larger devices  */
+ 
+  @media only screen and (min-width:600px)
+  
+
+.menu-bar { 
+        
+         /* justify-content: space-between;  */
+        background: whitesmoke;
+         flex-wrap: wrap; 
+         padding: 0px 15px 10px 20px;  
+        
+    }  
+
+
+p{
+    background-color:cornflowerblue ;
+    text-align: justify;
+}
+
+.title {
+    color: cornflowerblue;
+    font-family:'merriweather',serif;
+    font-size: 40px; 
+}
+
+.scnd-color {
+    color: green;
+
+
+}
+
+.intro{
+    background: aliceblue;
+
+}
+
+.intro p{
+    background-color:aliceblue;
+    margin-left: 60px;
+    margin-right:50px ;
+    justify-self: left;
+}
+  /* INTRO COMPLETE */
+
+
+
+
+
+
+  /* BORDER START */
+.main b{
+    
+    color: white;
+     font-family:'merriweather',serif; 
+    background-color: darkblue;
+    
+    }
+
+.number{
+    font-family:'merriweather',serif;
+    text-align: center;
+    font-size: 40px;
+    
+
+}
+
+/* BORDER COMPLETE */
+
+
+
+   /* what we are doing start */
+
+
+
+.what{
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 10 black;
+    font-family:'merriweather',serif; 
+
+}
+
+
+.online{
+    background-color: white;
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 20px;
+
+    
+}
+
+.box{
+    display: inline-block;
+    border: 2px solid white;
+    width: 350px;
+    height: 170px;
+    text-align: center;
+      padding: 50px 20px 30px 30px;
+    margin: 30px;
+     background-color: white;
+     box-shadow: 5px 3px 3px 4px gainsboro;
+     font-family: 'merriweather',serif;
+    
+}
+
+h1.title{
+    
+       text-align: center;
+
+}
+
+/* complete  */
+
+
+
+
+
+ /* mission and upcomig project start */
+
+
+ .mission{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    /* display: inline; */
+
+    
+} 
+
+ .missionlocal{
+    background-color: white ;
+    font-size: 30px;
+    font-family: 'merriweather',serif;
+     padding: 10px;
+    /* margin: 10px 10px; */
+    margin-left: 56px; 
+    color: cornflowerblue;
+    font-weight: 700;
+    
+} 
+
+
+.project1{
+    
+    background-color:  whitesmoke;
+    width: 380px;
+    padding: 5px;
+    border: 1px solid white;
+     margin-left: 60px; 
+     height: 70px;
+     text-indent: 50px ;
+    padding-top: 20px;
+    border-color:  rgb(233, 228, 228);
+    font-family: 'merriweather',serif;
+    color: cornflowerblue;
+    font-weight: 600;
+
+} 
+
+.project2{
+    background-color:  whitesmoke;
+     width: 380px; 
+    padding:5px ;
+    border: 1px solid  white;
+    margin-left:60px ;
+    margin-top: 5px;
+    height: 70px;
+    text-indent: 50px ;
+    padding-top: 20px;
+    border-color:  rgb(233, 228, 228);
+    font-family: 'merriweather',serif;
+    color: cornflowerblue;
+    font-weight: 600;
+}
+
+
+.project3{
+    background-color:  whitesmoke;
+     width: 380px; 
+    padding: 5px;
+    border: 1px solid  white;
+    margin-left: 60px;
+     margin-top: 30px;
+     height: 70px;
+    text-indent: 50px ;
+    padding-top: 20px;
+    border-color:  rgb(233, 228, 228);
+    font-family: 'merriweather',serif;
+    color: cornflowerblue;
+    font-weight: 600;
+
+    
+    
+}
+
+.project4{
+    background-color: whitesmoke ;
+    width: 380px;
+    padding:2px ;
+    border: 1px solid white;
+    margin-left: 60px;
+     margin-top: 5px; 
+     height: 70px;
+     text-indent: 50px ;
+    padding-top: 20px;
+    border-color:  rgb(233, 228, 228);
+    font-family: 'merriweather',serif;
+    color: cornflowerblue;
+    font-weight: 600;
+}
+
+
+.post{
+    background-color: whitesmoke ;
+    padding-left: 50px;
+    border-spacing: 10px 20px;
+}
+
+ 
+.bigest{
+      display:flex; 
+     flex-wrap: wrap;
+     /* ya konsa class hn? */
+     margin-right: 20px;
+    
+     
+
+}  
+
+.project3{
+    margin-top: 4px;
+    
+}
+ 
+
+       
+  
+.whiter{
+    background-color: white;
+    right: 300px;
+    
+    
+}
+
+
+
+ .black{
+
+     padding: 10px 5px;
+     font-family: 'merriweather',serif;
+     font-size: 40px;
+     font-weight: 40px;
+     color: cornflowerblue;
+     
+
+}
+
+
+
+.blackmain{
+
+    margin-left: 60px;
+}
+
+
+.epic{
+    margin-top: 10px;
+}
+
+
+  /* mission and upcoming project compelete */
+
+
+
+
+  /* image gallery start */
+
+
+  .gallery{
+      background-color: white;
+      display: inline;
+      flex-direction: row;
+      text-align: center;
+      margin: 10px;
+      padding: 10px;
+      font-family: 'merriweather',serif;
+      font-weight: 700;
+  }
+
+.gallerysection{
+    background-color: white; 
+    text-align: center;
+}
+
+/* image gallery complete */
+
+
+
+
+    /* footer start */
+       
+.footer1{
+     margin: 1px 80px 20px; 
+    font-family:'merriweather',serif; 
+     /* width: 400px;  */
+     float: left; 
+     background-color: rgb(31, 29, 29);
+     margin-left: 0px;
+     height: 310px;
+
+
+}
+
+.magic{
+     float: left; 
+     margin-top: 1px;
+     font-size: 20px;
+     font-family:'merriweather',serif;
+     background-color:rgb(31, 29, 29) ;
+
+}
+
+.blood{
+     text-align: center;
+     background-color: rgb(31, 29, 29);
+     color: white;
+     /* height: 311px; */
+     height: 400px;
+     padding-top: 80px;
+     
+     
+    
+}
+
+.us{
+    font-family:'merriweather',serif ;
+    font-size: 20px;
+    background-color:rgb(31, 29, 29) ;
+}
+
+
+.mainfooter{
+    /* background-color: black; */
+    text-decoration: none;
+    /* background: black; */
+    
+}
+
+.qwerty{
+    background-color:rgb(31, 29, 29) ;
+    color:aliceblue; 
+    margin-left: 30px;
+}
+
+
+.parot{
+    background-color:rgb(31, 29, 29) ;
+}
+ 
+
+
+.finish{
+border: 2px solid cornflowerblue;
+text-align: center;
+background-color: cornflowerblue;
+text-align: 10px;
+
+
+}
+.last{
+  text-indent: 40px;
+  padding-top: 13px;
+  font-family: 'merriweather',serif ;
+  color: aliceblue;
+    
+}
+
